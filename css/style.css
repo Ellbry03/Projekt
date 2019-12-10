@@ -1,0 +1,148 @@
+
+header {
+border-style: solid;
+border-color: white;
+}
+
+nav {background-color: white;
+
+}
+
+section {background-color: white;
+}
+
+footer {background-color: white;}
+
+content {background-color: white;}
+
+article {
+  background-color:#4d0005;
+}
+
+body{
+  font-family: 'Gupter', serif;;
+}
+
+h1{
+  text-align: right;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  color: white;
+
+}
+
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  margin-top: 0;
+  color: #720000;
+}
+
+
+button {
+  padding: 3%;
+  font-size: 0px;
+  width: 20%;
+  background-color: #4d0005;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: left;
+  border:1px solid;
+}
+
+p {text-align: center;}
+
+
+#Välkommen {
+color: #591015;
+font-size: 30px;
+}
+
+
+#Rubrik1 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: White
+}
+
+#knapp
+ {
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   text-decoration: none;
+}
+
+#Meny
+{color: #720000;
+ padding: 10px;
+ margin-top: 1px;
+ margin-bottom: 1px;
+ border-style: solid;
+ text-align: center;
+ font-size: 20px;
+ width: 123px;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#Underrubriker {width: 100px;
+margin-right: 0px;
+text-align: left;
+}
+
+#random {text-align: left;
+margin-top: 50px;
+font-family: 'Raleway', sans-serif;
+margin-left: 50px;
+margin-right: 50px}
+
+#Information
+{text-align: left;
+margin-left: 10px;
+margin-right: 10px;}
+
+#Instagram {color: white;
+  font-weight: bold;
+  width: 20%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+
+}
+
+#Tillbaka {color: white;
+  font-weight: bold;
+  font-size: 10px;
+  width: 20%;
+  text-decoration: none;
+    text-align: center;
+
+}
+
+#Hästar {text-align: left;
+margin-left: 100px;
+font-size: 25px;
+font-weight: bold;}
+
+@media screen and (max-width: 500px) {
+ button {
+   padding-bottom: 20px;
+   height: 60px;
+ }
+
+}
+
+@media screen and (max-width: 760px) {
+  #knapp {
+  font-size: 10px;
+  padding-bottom: 20px;
+  height: 80px;
+}
+
+}
