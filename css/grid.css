@@ -34,7 +34,7 @@ footer{
 
 content {
   grid-column: 8/13;
-  grid-row: 448/569;
+  grid-row: 400/569;
 }
 
 article {
@@ -52,12 +52,12 @@ article {
 
 main {
   grid-column: 10/13;
-  grid-row: 8/60;
+  grid-row: 8/50;
 }
 
   nav{
     grid-column: 1/13;
-    grid-row: 58/70;
+    grid-row: 47/70;
     text-align: center;
   }
 
