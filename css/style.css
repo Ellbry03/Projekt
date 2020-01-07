@@ -151,15 +151,15 @@ margin-right: 10px;}
   width: 20%;
   text-decoration: none;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
 
 }
 
-#Hästar {text-align: left;
-margin-left: 100px;
-font-size: 25px;
-font-weight: bold;}
-
+#hästarponnys {text-align: center;
+font-weight: bold;
+color: #5f6163;
+text-decoration: underline;
+}
 
 
 @media screen and (max-width: 500px) {
