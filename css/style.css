@@ -185,9 +185,14 @@ text-decoration: underline;
 #humör {
   margin-right: 150px;
   margin-left: 20px;
+  margin-top: 75px;
   text-align: left;
+  border-style: solid;
+  border-width: thin;
+  padding: 20px
 
 }
+
 
 @media screen and (max-width: 500px) {
  button {
