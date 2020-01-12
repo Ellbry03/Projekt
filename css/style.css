@@ -27,6 +27,7 @@ content {background-color: white;
 content video{
   margin-top: 20px;
   margin-bottom: 0px;
+
 }
 
           main{ background-color: white;
@@ -38,7 +39,7 @@ article {
 
 
           body {font-family: 'Gupter', serif;
-          background-color: #a6a8ab;
+
 }
 
 h1{
@@ -88,6 +89,11 @@ button {
   border:1px solid;
 }
 
+button:hover {background-color: white;
+color: #4d0005;}
+
+#knapp:hover {color: #4d0005;}
+#knapp2:hover {color: #4d0005;}
 
 
 
@@ -103,13 +109,6 @@ font-size: 30px;
   color: White
 }
 
-#knapp
- {
-   color: white;
-   font-weight: bold;
-   font-size: 15px;
-   text-decoration: none;
-}
 
 #Meny
 {color: #720000;
@@ -122,6 +121,25 @@ font-size: 30px;
  width: 123px;
  font-weight: bold;
  text-decoration: none;
+}
+
+#knapp
+ {
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   text-decoration: none;
+}
+
+#knapp2 {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  width: 20%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+
 }
 
 #Underrubriker {width: 100px;
@@ -144,16 +162,6 @@ margin-right: 50px}
 margin-left: 10px;
 margin-right: 10px;}
 
-#knapp2 {
-  margin-top: 10px;
-  color: white;
-  font-weight: bold;
-  width: 20%;
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-
-}
 
 #hästarponnys {text-align: center;
 font-weight: bold;
@@ -201,5 +209,18 @@ text-decoration: underline;
   padding-bottom: 20px;
   height: 80px;
 }
+
+}
+
+@media screen and (min-width: 760px) {
+
+#ridhustext {margin-left: 100px;
+margin-right: 100px;}
+
+#random {margin-left: 100px;
+margin-right: 100px;}
+
+#mertext {margin-left: 100px;
+margin-right: 100px;}
 
 }
