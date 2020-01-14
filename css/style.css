@@ -19,6 +19,7 @@ section {background-color: white;
           }
 
           footer img {margin-top: 5px;
+            border-style: solid;
           }
 
 content {background-color: white;
@@ -31,6 +32,7 @@ content video{
 }
 
           main{ background-color: white;
+            border-style:ridge;
           }
 
 article {
@@ -139,6 +141,7 @@ font-size: 30px;
   text-decoration: none;
   text-align: center;
   font-size: 12px;
+
 
 }
 
