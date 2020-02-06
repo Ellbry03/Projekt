@@ -3,43 +3,74 @@
 
 <head>
 
- <meta charset="utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/grid.css">
-<meta name="viewport" content="width=device-width" initial-scale="1.0">
-<title> Tappvägens Ryttarförening </title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <title> Tappvägens Ryttarförening </title>
 
- </head>
+</head>
 
 <body>
 
-    <div class="container">
+  <div class="container">
 
     <header>
 
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-      <img src="img/Blixen.jpeg" alt="Häst"
-      style="width:100%">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/Blixen.jpeg" alt="bild" style="width:100%">
+          <div class="text">Täby Ryttarcenter</div>
+        </div>
 
-       <h1> Tappvägens Ryttarförening </h1>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/Ridläger.jpeg" alt="bild" style="width:100%">
+          <div class="text">Täby Ryttarcenter</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/Kummin.jpeg" alt="bild" style="width:100%">
+          <div class="text">Täby Ryttarcenter</div>
+        </div>
+
+        <div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+      </div>
 
     </header>
 
 
-
     <nav>
 
-      <button> <a href="Omoss.html" id="knapp" alt="Knapp till Om oss" title="Om oss">Om oss</a> </button>
+      <!--Menyraden -->
 
-      <button> <a href="Vårahästar.html" id="knapp" alt="Knapp till Om oss" title="Våra hästar">Våra hästar</a> </button>
+      <a href="Omoss.html" class="knapp" title="Om oss">Om oss</a>
 
-      <button> <a href="Stallet.html" id="knapp" alt="Knapp till Om oss" title="Stallet">Stallet</a> </button>
+      <a href="Vårahästar.html" class="knapp" title="Våra hästar">Våra hästar</a>
 
-      <button> <a href="Ridhuset.html" id="knapp" alt="Knapp till Om oss" title="Ridhuset">Ridhuset</a> </button>
+      <a href="Stallet.html" class="knapp" title="Stallet">Stallet</a>
 
-      <button> <a href="Hyraboxplats.html" id="knapp" alt="Knapp till Om oss" title="Hyra boxplats">Hyra boxplats</a> </button>
+      <a href="Ridhuset.html" class="knapp" title="Ridhuset">Ridhuset</a>
 
+      <a href="Hyraboxplats.html" class="knapp" title="Hyra boxplats">Hyra boxplats</a>
 
     </nav>
 
@@ -47,15 +78,26 @@
 
     <section>
 
-      <h2 id="Välkommen">Välkommen till Tappvägens Ryttarförening</h2>
+      <!--Rubriken-->
+
+      <h2 class="Välkommen">Välkommen till Tappvägens Ryttarförening</h2>
+
       <p id="random">
 
+        <!--Endast random text -->
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu nisi non velit molestie accumsan. Proin cursus ornare cursus. Maecenas vehicula quis mauris ut aliquet. Integer sed viverra mauris, hendrerit suscipit neque. Nam id orci consectetur, tincidunt nulla eget, gravida libero. In at ante ac mauris placerat scelerisque. Maecenas a neque eu turpis convallis consectetur id eget arcu. Etiam placerat, odio placerat malesuada placerat, lectus mi luctus ligula, et ultrices sem libero eu diam. Maecenas tincidunt ut velit nec bibendum.
-<br> <br>
-        Sed ullamcorper nibh nec dolor egestas porttitor. Fusce facilisis facilisis mattis. Maecenas pretium pretium sapien sed eleifend. Duis eget imperdiet quam. Duis varius est eu condimentum mollis. Proin nisi erat, euismod at ligula at, facilisis pretium dui. Sed viverra tortor nec dictum dictum. Nunc iaculis sem vitae sem posuere, tempus cursus urna ornare. Fusce lobortis augue a enim placerat, non rutrum felis congue. Maecenas ornare lorem in massa elementum, eget vulputate tortor molestie.
-<br> <br>
-        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi, sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus ornare purus in venenatis. Proin sed ullamcorper ex, sed accumsan sem. Sed id ornare ligula. Phasellus auctor felis eget commodo efficitur. purus in venenatis. Proin sed ullamcorper ex, sed accumsan sem. Sed id ornare ligula. Phasellus auctor felis eget commodo efficitur. </p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu nisi non velit molestie accumsan. Proin cursus ornare cursus. Maecenas vehicula quis mauris ut aliquet. Integer sed viverra mauris, hendrerit suscipit neque. Nam id orci
+        consectetur, tincidunt nulla eget, gravida libero. In at ante ac mauris placerat scelerisque. Maecenas a neque eu turpis convallis consectetur id eget arcu. Etiam placerat, odio placerat malesuada placerat, lectus mi luctus ligula, et
+        ultrices sem libero eu diam. Maecenas tincidunt ut velit nec bibendum.
+        <br> <br>
+        Sed ullamcorper nibh nec dolor egestas porttitor. Fusce facilisis facilisis mattis. Maecenas pretium pretium sapien sed eleifend. Duis eget imperdiet quam. Duis varius est eu condimentum mollis. Proin nisi erat, euismod at ligula at,
+        facilisis pretium dui. Sed viverra tortor nec dictum dictum. Nunc iaculis sem vitae sem posuere, tempus cursus urna ornare. Fusce lobortis augue a enim placerat, non rutrum felis congue. Maecenas ornare lorem in massa elementum, eget
+        vulputate tortor molestie.
+        <br> <br>
+        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi,
+        sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus
+        ornare purus in venenatis. Proin sed ullamcorper ex, sed accumsan sem. Sed id ornare ligula. Phasellus auctor felis eget commodo efficitur. purus in venenatis. Proin sed ullamcorper ex, sed accumsan sem. Sed id ornare ligula. Phasellus auctor
+        felis eget commodo efficitur. </p>
 
     </section>
 
@@ -63,49 +105,69 @@
 
     <footer>
 
-      <img src="img/Curre2.jpeg" alt="Häst"
-      style="width:100%">
+      <!--Bild på Curre-->
+
+      <img src="img/Curre2.jpeg" alt="Häst" style="width:100%">
 
 
     </footer>
 
 
-   <content>
+    <content>
 
-     <h4> Introduktion </h4>
+      <!--Underrubrik-->
 
-     <p id="mertext">
-        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi, sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus ornare purus in venenatis. Proin sed ullamcorper ex.
+      <h4> Introduktion </h4>
+
+      <!--Mer random text längst ner på sidan-->
+
+      <p id="mertext">
+        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi,
+        sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus
+        ornare purus in venenatis. Proin sed ullamcorper ex.
 
         <br> <br>
 
-        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi, sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus ornare.
+        Etiam sed eros vitae eros pellentesque imperdiet et a mauris. Suspendisse metus justo, placerat in augue cursus, blandit tincidunt mauris. Integer imperdiet id ante eu pulvinar. Ut ornare, nunc non suscipit molestie, dolor sem posuere nisi,
+        sit amet aliquet eros justo non lectus. Nam cursus risus semper lorem tristique, vitae luctus elit varius. Pellentesque et pellentesque ipsum, vitae tempor libero. Nunc consectetur nulla purus, at bibendum erat lobortis id. Aliquam luctus
+        ornare.
 
 
-     </p>
+      </p>
 
 
-   </content>
+    </content>
 
-   <main>
+    <main>
+      <!--Rubrik till film-->
 
- <h5> En informations video </h5>
+      <h5> En informations video </h5>
 
+      <!--Imovie film/bildspel -->
 
-     <video width="100%" controls alt="En videp med hästbilder.">
-             <source src="img/Hästar.mp4" type="video/mp4">
-   </main>
+      <video width="100%" controls>
+        <source src="img/Hästar.mp4" type="video/mp4">
 
+      </video>
 
-   <article>
+    </main>
 
-     <button> <a href="https://www.instagram.com/baileyellie/?hl=sv" id="knapp2" title="Instagram"><img src="img/icon.webp" alt="icon"
-     style="width:30px"></a> </button>
-     <button> <a href="index.html" id="knapp2" title="Tillbaka"><img src="img/undo.png" alt="icon"
-     style="width:30px"></a> </button>
+    <article>
 
+      <!--Knapparna längst ner-->
 
-   </article>
+      <a href="https://www.instagram.com/baileyellie/?hl=sv" class="knapp2" title="Instagram">Instagram</a>
+      <a href="index.html" class="knapp2" title="Tillbaka">Startsidan</a>
+
+    </article>
+
+    <!--Länk till js-->
+
+    <script src="js/javascript.js">
+
+    </script>
+
+  </div>
 
 </body>
 

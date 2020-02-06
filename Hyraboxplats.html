@@ -2,39 +2,45 @@
 <html lang="sv">
 
 <head>
- <meta charset="utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/grid.css">
-<meta name="viewport" content="width=device-width", initial-scale="1.0">
-<title>Tappvägens Ryttarförening</title>
- </head>
+
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <title> Tappvägens Ryttarförening </title>
+
+</head>
 
 <body>
 
-    <div class="container">
+  <div class="container">
 
     <header>
 
+      <!--Bilden längst upp på sidan-->
 
-      <img src="img/Ridläger.jpeg" alt="Häst"
-      style="width:100%">
+      <img src="img/Ridläger.jpeg" alt="Häst" style="width:100%">
 
-      <h1 id="Rubrikomoss"> Tappvägens Ryttarförening </h1>
+      <!--Rubrik-->
+
+      <h1> Tappvägens Ryttarförening </h1>
 
     </header>
 
 
     <nav>
 
-      <button> <a href="Omoss.html" id="knapp" alt="Knapp till Om oss" title="Om oss">Om oss</a> </button>
+      <!--Menyraden-->
 
-      <button> <a href="Vårahästar.html" id="knapp" alt="Knapp till Om oss" title="Våra hästar">Våra hästar</a> </button>
+      <a href="Omoss.html" class="knapp" title="Om oss">Om oss</a>
 
-      <button> <a href="Stallet.html" id="knapp" alt="Knapp till Om oss" title="Stallet">Stallet</a> </button>
+      <a href="Vårahästar.html" class="knapp" title="Våra hästar">Våra hästar</a>
 
-      <button> <a href="Ridhuset.html" id="knapp" alt="Knapp till Om oss" title="Ridhuset">Ridhuset</a> </button>
+      <a href="Stallet.html" class="knapp" title="Stallet">Stallet</a>
 
-      <button> <a href="Hyraboxplats.html" id="knapp" alt="Knapp till Om oss" title="Hyra boxplats">Hyra boxplats</a> </button>
+      <a href="Ridhuset.html" class="knapp" title="Ridhuset">Ridhuset</a>
+
+      <a href="Hyraboxplats.html" class="knapp" title="Hyra boxplats">Hyra boxplats</a>
 
     </nav>
 
@@ -42,45 +48,51 @@
 
     <section>
 
-  <h2 id="Välkommen">Hyra boxplats</h2>
+      <!--Underrubrik-->
 
-  <p id="boxplats"> För att lägga en intresseanmälan på en boxplats så skriv i formuläret och skicka till oss. </p>
+      <h2 class="Välkommen">Hyra boxplats</h2>
 
-<br> <br>
+      <!--Informationstext-->
 
-  <div class="center">
-  <form action="action_page.php">
+      <p id="boxplats"> För att lägga en intresseanmälan på en boxplats så skriv i formuläret och skicka till oss. </p>
 
-    <label for="förnamn">Förnamn</label>
-    <input type="text" id="fnamn" name="förnamn" placeholder="Ditt förnamn..">
+      <br> <br>
 
-<br> <br>
+      <!--Formuläret-->
 
-    <label for="efternamn">Efternamn</label>
-    <input type="text" id="enamn" name="efternamn" placeholder="Ditt efternamn..">
+      <div class="center">
+        <form action="action_page.php">
 
-<br> <br>
+          <label for="förnamn">Förnamn</label>
+          <input type="text" id="fnamn" name="förnamn" placeholder="Ditt förnamn..">
 
-    <label for="Stad">Stad</label>
-    <select id="Stad" name="Stad">
-      <option value="Stockholm">Stockholm</option>
-      <option value="Malmö">Malmö</option>
-      <option value="Göteborg">Göteborg</option>
-    </select>
+          <br> <br>
 
-<br> <br>
+          <label for="efternamn">Efternamn</label>
+          <input type="text" id="enamn" name="efternamn" placeholder="Ditt efternamn..">
 
-    <label for="subject">Ärende</label>
-    <textarea id="subject" name="subject" placeholder="Skriv någonting.." style="height:200px"></textarea>
+          <br> <br>
 
-<br> <br>
+          <label for="Stad">Stad</label>
+          <select id="Stad" name="Stad">
+            <option value="Stockholm">Stockholm</option>
+            <option value="Malmö">Malmö</option>
+            <option value="Göteborg">Göteborg</option>
+          </select>
 
-    <input type="submit" value="Klar">
+          <br> <br>
 
-<br> <br>
+          <label for="subject">Ärende</label>
+          <textarea id="subject" name="subject" placeholder="Skriv någonting.." style="height:200px"></textarea>
 
-  </form>
-</div>
+          <br> <br>
+
+          <input type="submit" value="Klar">
+
+          <br> <br>
+
+        </form>
+      </div>
 
     </section>
 
@@ -94,21 +106,24 @@
     </footer>
 
 
-   <content>
+    <content>
 
 
 
-   </content>
+    </content>
 
 
-   <article>
+    <article>
 
-     <button> <a href="https://www.instagram.com/baileyellie/?hl=sv" id="knapp2" title="Instagram"><img src="img/icon.webp" alt="icon"
-     style="width:30px"></a> </button>
-     <button> <a href="index.html" id="knapp2" title="Tillbaka"><img src="img/undo.png" alt="icon"
-     style="width:30px"></a> </button>
+      <!--Knapparna längst ner-->
 
-   </article>
+
+      <a href="https://www.instagram.com/baileyellie/?hl=sv" class="knapp2" title="Instagram">Instagram</a>
+      <a href="index.html" class="knapp2" title="Tillbaka">Startsidan</a>
+
+    </article>
+
+  </div>
 
 </body>
 

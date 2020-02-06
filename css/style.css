@@ -1,200 +1,305 @@
-
+/*Översta delen på sidan,där bildspelet är*/
 header {
-border-style: solid;
-border-color: white;
+  border-style: solid;
+  border-color: white;
 }
 
-header h1{
+/*Rubriken som ligger på bilden på alla förutom sida:index*/
+header h1 {
   margin-top: -100px;
 }
 
-          nav {
-            background-color: white;
-          }
-
-section {background-color: white;
+/*Bildspelet*/
+* {
+  box-sizing: border-box
 }
 
-          footer {background-color: white;
-          }
-
-          footer img {margin-top: 5px;
-          }
-
-content {background-color: white;
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
 }
 
-content video{
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  font-weight: bold;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+nav {
+  background-color: white;
+}
+
+section {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+}
+
+/*Bilden som ligger i footer på sidan:Index*/
+footer img {
+  margin-top: 5px;
+}
+
+content {
+  background-color: white;
+}
+
+/*Videon i content på sidan: Index*/
+content video {
   margin-top: 20px;
   margin-bottom: 0px;
-
 }
 
-          main{ background-color: white;
-            border-style:ridge;
-          }
+main {
+  background-color: white;
+  border-style: ridge;
+}
 
 article {
   background-color: #4d0005;
 }
 
-
-          body {font-family: 'Gupter', serif;
-
+/*Hela hemsidans textsnitt*/
+body {
+  font-family: 'Gupter', serif;
 }
 
-h1{
+/*De översta rubrikerna på alla sidor, de som är på bilden*/
+h1 {
   text-align: right;
   margin-right: 15px;
   margin-bottom: 12px;
   color: white;
-
 }
 
-
-h2{
+/*Rubrikerna som är på själva sidan och inte på bilden*/
+h2 {
   text-align: center;
 }
 
-h3{
+/*Mindre rubrik som är längre ner på sidan*/
+h3 {
   text-align: center;
   margin-top: 0;
   color: #720000;
 }
 
-h4 {text-align: center;
-color:#591015;
+/*Mindre rubrik som är längre ner på sidan*/
+h4 {
+  text-align: center;
+  color: #591015;
 }
 
-h5 {text-align: center;
-  color:#591015;
+/*Mindre rubrik som är längre ner på sidan*/
+h5 {
+  text-align: center;
+  color: #591015;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 1px;
 }
 
-p {text-align: center;
-
+/* All brödtext*/
+p {
+  text-align: center;
 }
 
-
-button {
+/*Knapparna i menyraden*/
+.knapp {
+  box-sizing: border-box;
+  color: white;
   padding: 3%;
   font-size: 15px;
   width: 20%;
   background-color: #4d0005;
   text-align: center;
-  margin-bottom: 0px;
   margin-top: 2px;
   float: left;
-  border:1px solid;
-}
-
-button:hover {background-color: white;
-color: #4d0005;}
-
-#knapp:hover {color: #4d0005;}
-#knapp2:hover {color: #4d0005;}
-
-
-
-#Välkommen {
-color: #591015;
-font-size: 30px;
-}
-
-
-#Rubrik1 {
-  text-align: center;
-  margin-bottom: 8px;
-  color: White
-}
-
-
-#Meny
-{color: #720000;
- padding: 10px;
- margin-top: 1px;
- margin-bottom: 1px;
- border-style: solid;
- text-align: center;
- font-size: 20px;
- width: 123px;
- font-weight: bold;
- text-decoration: none;
-}
-
-#knapp
- {
-   color: white;
-   font-weight: bold;
-   font-size: 15px;
-   text-decoration: none;
-}
-
-#knapp2 {
-  margin-top: 10px;
-  color: white;
-  font-weight: bold;
-  width: 20%;
+  border: 1px solid;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/*Gör att knapparna ändrar färg när du rör med dom med musen*/
+.knapp:hover {
+  background-color: white;
+  color: #4d0005;
+}
+
+/*h2 texten, dvs rubriker*/
+.Välkommen {
+  color: #591015;
+  font-size: 30px;
+}
+
+/* Knapparna längst ner på sidan*/
+.knapp2 {
+  box-sizing: border-box;
+  color: white;
+  padding: 3%;
+  font-size: 15px;
+  width: 20%;
+  background-color: #4d0005;
   text-align: center;
-  font-size: 12px;
-
-
+  float: left;
+  border: 1px solid;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-#Underrubriker {width: 100px;
-margin-right: 0px;
-text-align: left;
+/*Det som gör att även de knapparna som finns längst ner på sidan ändrar färg*/
+.knapp2:hover {
+  background-color: white;
+  color: #4d0005;
 }
 
-#random {text-align: left;
-margin-top: 50px;
-margin-left: 50px;
-margin-right: 50px}
+/* All lorum ipsum text*/
+#random {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px
+}
 
-#mertext {text-align: center;
+/*Texten på sidan index som också är Lorum ipsum men sak vara stylad lite annorlunda*/
+#mertext {
+  text-align: center;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-#Information
-{text-align: left;
-margin-left: 10px;
-margin-right: 10px;}
-
-
-#hästarponnys {text-align: center;
-font-weight: bold;
-color: #5f6163;
-text-decoration: underline;
+/*En liten "Underrubrik" på sidan:vårahästar*/
+#hästarponnys {
+  text-align: center;
+  font-weight: bold;
+  color: #5f6163;
+  text-decoration: underline;
 }
 
+/*Informationen om hästarna på sidan:vårahästar*/
 #info {
   margin-left: 40px;
   margin-right: 40px;
   font-style: oblique;
 }
 
-#vårahästarbild {
+/*Bilderna på hästarna på sidan:Vårahästar*/
+.vårahästarbild {
   margin-bottom: 0px;
   margin-left: 1px;
   margin-right: 0px;
   margin-top: 1px;
 }
 
-#humör {
+/*Information om varje häst på sidan:Vårahästar*/
+.humör {
   margin-right: 150px;
   margin-left: 20px;
   margin-top: 75px;
   text-align: left;
   border-style: solid;
   border-width: thin;
-  padding: 20px
-
+  padding: 20px;
 }
 
+/*Formuläret på sidan:Hyraboxplats*/
 .center {
   display: block;
   margin-left: auto;
@@ -202,39 +307,38 @@ text-decoration: underline;
   width: 30%;
 }
 
-
-@media screen and (max-width: 500px) {
- button {
-   padding-bottom: 20px;
-   height: 60px;
- }
-
-}
-
+/*Ändra utseendet på griden när det är på en mobil*/
 @media screen and (max-width: 760px) {
-  #knapp {
-  font-size: 10px;
-  padding-bottom: 20px;
-  height: 80px;
-}
 
-#knapp2 {
-  font-size: 10px;
-  padding-bottom: 20px;
-  height: 80px;
-}
+  /*För menyraden där uppe*/
+  .knapp {
+    font-size: 15px;
+    padding-bottom: 20px;
+    height: 60px;
+  }
 
-}
+  /*För knapparna längst ner*/
+  .knapp2 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    height: 50px;
+  }
 
-@media screen and (min-width: 760px) {
+  /*För testen på sidan:ridhuset*/
+  .ridhustext {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
-#ridhustext {margin-left: 100px;
-margin-right: 100px;}
+  /*För lorum ipsum text*/
+  #random {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
-#random {margin-left: 100px;
-margin-right: 100px;}
-
-#mertext {margin-left: 100px;
-margin-right: 100px;}
-
+  /*För övrig text*/
+  #mertext {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
