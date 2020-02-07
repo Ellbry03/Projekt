@@ -343,7 +343,7 @@ p {
   }
 }
 
-/*Texten till mobilsize*/
+/*Text till mobilsize*/
 @media screen and (max-width: 500px) {
   #random {
     margin-left: 50px;
@@ -351,6 +351,11 @@ p {
   }
 
   #mertext {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #ridhustext {
     margin-left: 50px;
     margin-right: 50px;
   }
