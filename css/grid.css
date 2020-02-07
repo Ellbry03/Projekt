@@ -46,7 +46,7 @@ article {
   grid-row: 7/8;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 760px) {
   header {
     grid-column: 1/13;
     grid-row: 1;
