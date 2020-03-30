@@ -16,17 +16,17 @@ nav {
   grid-row: 2/3;
 }
 
-section {
+.one {
   grid-column: 1/13;
   grid-row: 3/4;
 }
 
-footer {
+.two {
   grid-column: 1/8;
   grid-row: 4/6;
 }
 
-content {
+.three {
   grid-column: 8/13;
   grid-row: 4/6;
 }
@@ -36,12 +36,12 @@ content {
   grid-row: 5/6;
 }
 
-main {
+.four {
   grid-column: 1/13;
   grid-row: 6/7;
 }
 
-article {
+footer {
   grid-column: 1/13;
   grid-row: 7/8;
 }
@@ -57,27 +57,27 @@ article {
     grid-row: 2;
   }
 
-  section {
+  .one {
     grid-column: 1/13;
     grid-row: 3;
   }
 
-  footer {
+  .two {
     grid-column: 1/13;
     grid-row: 4;
   }
 
-  content {
+  .three {
     grid-column: 1/13;
     grid-row: 5;
   }
 
-  main {
+  .four {
     grid-column: 1/13;
     grid-row: 6;
   }
 
-  article {
+  footer {
     grid-column: 1/13;
     grid-row: 7;
   }

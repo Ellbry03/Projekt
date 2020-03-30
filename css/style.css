@@ -121,35 +121,36 @@ nav {
   background-color: white;
 }
 
-section {
+.one {
   background-color: white;
 }
 
-footer {
+.two {
   background-color: white;
 }
 
-/*Bilden som ligger i footer på sidan:Index*/
-footer img {
-  margin-top: 5px;
-}
-
-content {
+.three {
   background-color: white;
 }
 
 /*Videon i content på sidan: Index*/
-content video {
+#videon {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
-main {
+/*Videon där jag rider*/
+#ridvideon {
+  width: 100%;
+}
+
+.four {
   background-color: white;
   border-style: ridge;
 }
 
-article {
+footer {
   background-color: #4d0005;
 }
 
@@ -226,6 +227,24 @@ p {
 .Välkommen {
   color: #591015;
   font-size: 30px;
+  margin-bottom: 0px;
+  margin-right: 1px;
+}
+
+/*tillbaaka knapp*/
+#hem {
+  box-sizing: border-box;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding: 2%;
+  background-color: #4d0005;
+  text-align: center;
+  float: right;
+  position: relative;
+  border: 1px solid;
+  margin-right: 5px;
+  margin-top: -20px;
 }
 
 /* Knapparna längst ner på sidan*/
